@@ -1,0 +1,73 @@
+[
+  {
+    "description": "    O intuito desse teste é fazer login no site.",
+    "keyword": "Feature",
+    "name": "Incluir produto",
+    "line": 1,
+    "id": "incluir-produto",
+    "tags": [],
+    "uri": "incluirProduto.feature",
+    "elements": [
+      {
+        "id": "incluir-produto;incluir-produto",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Incluir produto",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que eu visito a página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 1606000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "clicar no botão de lupa no lado superior direito e escrever Tablet",
+            "result": {
+              "status": "passed",
+              "duration": 4293000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "e clico no produto",
+            "result": {
+              "status": "passed",
+              "duration": 427000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "clico no botão de ADD TO CART",
+            "result": {
+              "status": "passed",
+              "duration": 379000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "verá o produto Tablet no carrinho",
+            "result": {
+              "status": "passed",
+              "duration": 427000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

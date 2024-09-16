@@ -1,0 +1,133 @@
+[
+  {
+    "description": "    O intuito desse teste é fazer uma busca de um produto no site",
+    "keyword": "Feature",
+    "name": "Buscar um produto",
+    "line": 1,
+    "id": "buscar-um-produto",
+    "tags": [],
+    "uri": "buscaProduto.feature",
+    "elements": [
+      {
+        "id": "buscar-um-produto;buscar-por-produto-existente",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Buscar por produto existente",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que eu visito a página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 797000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "clicar no botão de lupa no lado superior direito e escrever Tablet",
+            "result": {
+              "status": "passed",
+              "duration": 4328000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "verá uma lista de produtos top resultados com o nome Tablet",
+            "result": {
+              "status": "passed",
+              "duration": 513000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "buscar-um-produto;buscar-por-produto-existente",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Buscar por produto existente",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que eu visito a página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 824000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "clicar no botão de lupa no lado superior direito e escrever Laptop",
+            "result": {
+              "status": "passed",
+              "duration": 3776000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "verá uma lista de produtos top resultados com o nome Laptop",
+            "result": {
+              "status": "passed",
+              "duration": 605000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "buscar-um-produto;buscar-por-produto-existente",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Buscar por produto existente",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que eu visito a página inicial",
+            "result": {
+              "status": "passed",
+              "duration": 499000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "clicar no botão de lupa no lado superior direito e escrever Mouse",
+            "result": {
+              "status": "passed",
+              "duration": 3868000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "verá uma lista de produtos top resultados com o nome Mouse",
+            "result": {
+              "status": "passed",
+              "duration": 529000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
